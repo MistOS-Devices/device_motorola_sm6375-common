@@ -19,6 +19,9 @@ persist.dbg.vt_avail_ovr=1
 persist.dbg.wfc_avail_ovr=1
 persist.vendor.vonr_setting_support=1
 
+# Logging
+log.tag=I
+
 # Media
 ro.media.recorder-max-base-layer-fps=60
 
