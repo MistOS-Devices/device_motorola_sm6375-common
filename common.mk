@@ -158,6 +158,9 @@ PRODUCT_PACKAGES += \
     gps.conf \
     izat.conf
 
+# Dolby
+$(call inherit-product, hardware/dolby/dolby.mk)
+
 # Health
 PRODUCT_PACKAGES += \
     android.hardware.health-service.qti
