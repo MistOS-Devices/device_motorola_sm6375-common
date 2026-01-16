@@ -22,3 +22,8 @@ ril.subscription.types=RUIM
 
 # WiFi
 ro.boot.wificountrycode=00
+
+# ScrollOptimizer
+persist.sys.perf.scroll_opt = true
+persist.sys.perf.scroll_opt.heavy_app = 1
+
