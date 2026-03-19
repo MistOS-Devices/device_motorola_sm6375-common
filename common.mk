@@ -162,6 +162,9 @@ PRODUCT_PACKAGES += \
 # Dolby
 $(call inherit-product, hardware/dolby/dolby.mk)
 
+# Viper4Android FX
+$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
+
 # Health
 PRODUCT_PACKAGES += \
     android.hardware.health-service.qti
