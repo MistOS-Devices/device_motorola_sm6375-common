@@ -387,3 +387,10 @@ service vendor.charge_only_mode /vendor/bin/charge_only_mode
     user root
     group graphics system input
     disabled
+
+on init && property:ro.vendor.qti.soc_id="454"
+    setprop vendor.powerhal.config powerhint_holi.json
+
+on init && property:ro.vendor.qti.soc_id="472"
+    setprop vendor.powerhal.config powerhint_holi.json
+
