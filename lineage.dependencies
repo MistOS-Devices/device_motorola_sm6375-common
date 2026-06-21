@@ -1,10 +1,29 @@
 [
   {
-    "repository": "android_kernel_motorola_sm6375",
-    "target_path": "kernel/motorola/sm6375"
+    "repository": "vendor_motorola_fogos",
+    "target_path": "vendor/motorola/fogos",
+    "branch": "16.2"
   },
   {
-    "repository": "android_hardware_motorola",
-    "target_path": "hardware/motorola"
+    "repository": "vendor_motorola_sm6375-common",
+    "target_path": "vendor/motorola/sm6375-common",
+    "branch": "16.2"
+  },
+  {
+    "repository": "kernel_motorola_sm6375",
+    "target_path": "kernel/motorola/sm6375",
+    "branch": "16.2"
+  },
+  {
+    "repository": "JNWSG/Lineage_hardware_motorola",
+    "target_path": "hardware/motorola",
+    "remote": "github",
+    "branch": "16.2"
+  },
+  {
+    "repository": "JNWSG/hardware_dolby_1",
+    "target_path": "hardware/dolby",
+    "remote": "github",
+    "branch": "sony-1.5"
   }
 ]
