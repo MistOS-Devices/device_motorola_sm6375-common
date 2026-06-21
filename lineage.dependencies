@@ -31,4 +31,5 @@
     "target_path": "packages/apps/ViPER4AndroidFX",
     "remote": "github",
     "branch": "v4a"
+  }
 ]
