@@ -2,25 +2,30 @@
   {
     "repository": "FogosLab/android_vendor_motorola_sm6375-common",
     "target_path": "vendor/motorola/sm6375-common",
+    "remote": "github",
     "branch": "cnb"
   },
   {
     "repository": "FogosLab/android_kernel_motorola_sm6375",
     "target_path": "kernel/motorola/sm6375",
+    "remote": "github",
     "branch": "16"
   },
   {
     "repository": "LineageOS/android_hardware_motorola",
     "target_path": "hardware/motorola"
+    "remote": "github",
   },
   {
     "repository": "JNWSG/hardware_dolby",
     "target_path": "hardware/dolby",
+    "remote": "github",
     "branch": "16.0"
   },
   {
     "repository": "JNWSG/packages_apps_ViPER4AndroidFX",
     "target_path": "packages/apps/ViPER4AndroidFX",
+    "remote": "github",
     "branch": "v4a"
   }
 ]
